@@ -28,7 +28,7 @@ Testing the webserver
 
 # PROGRAM:
 ```
-rom http.server import HTTPServer , BaseHTTPRequestHandler
+from http.server import HTTPServer , BaseHTTPRequestHandler
 
 content = """
 <html>
